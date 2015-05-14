@@ -14,5 +14,5 @@ public class HeapOOM{
 	}
 }
 
-//执行之前 先编译
-//执行命令：java -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError HeapOOM
+//before java You need makefile
+//the parameter of java：java -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError HeapOOM
